@@ -1,5 +1,7 @@
 import React from 'react'
 import '../res/surf-theme.min.css'
+import '../res/forms.css'
+
 
 function JoinFormSection() {
     return (

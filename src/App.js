@@ -1,9 +1,9 @@
-import React, {Fragment} from 'react';
+import React from 'react';
 import Header from './components/Header.js'
 import MainContentSection from './components/MainContentSection.js'
 import JoinFormSection from './components/JoinFormSection.js'
 import ContactSection from './components/ContactSection.js'
-//import Footer from './components/Footer.js'
+import Footer from './components/Footer.js'
 
 
 function App() {
@@ -13,6 +13,7 @@ function App() {
       <MainContentSection />
       <JoinFormSection />
       <ContactSection />
+      <Footer />
     </>
   );
 }
