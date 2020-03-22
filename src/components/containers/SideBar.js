@@ -1,5 +1,5 @@
 import React from 'react'
-import '../res/surf-theme.min.css'
+import '../../res/styles/surf-theme.min.css'
 
 
 export default () => {

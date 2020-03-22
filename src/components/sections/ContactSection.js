@@ -1,5 +1,5 @@
 import React from 'react'
-import '../res/surf-theme.min.css'
+import '../../res/styles/surf-theme.min.css'
 
 function ContactSection() {
     return (
@@ -14,7 +14,7 @@ function ContactSection() {
                         <h3 className="heading-2">
                             CA 91932, USA<br/>Imperial Beach<br/>560 Silver Strand Blvd
                         </h3>
-                        <a className="text-link top" data-ix="float-in-on-scroll-3" href="#" style={{'transition': 'color 0.25s ease 0s', 'opacity': 0, 'transform': 'translateX(0px) translateY(50px) translateZ(0px)'}}>Get in Touch</a>
+                        <a className="text-link top" data-ix="float-in-on-scroll-3" href="#">Get in Touch</a>
                     </div>
                 </div>
             </address>

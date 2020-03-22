@@ -1,9 +1,9 @@
 import React from 'react';
-import Header from './components/Header.js'
-import MainContentSection from './components/MainContentSection.js'
-import JoinFormSection from './components/JoinFormSection.js'
-import ContactSection from './components/ContactSection.js'
-import Footer from './components/Footer.js'
+import Header from './components/sections/Header.js'
+import MainContentSection from './components/sections/MainContentSection.js'
+import JoinFormSection from './components/sections/JoinFormSection.js'
+import ContactSection from './components/sections/ContactSection.js'
+import Footer from './components/sections/Footer.js'
 
 
 function App() {

@@ -3589,8 +3589,8 @@
  * Webflow: Interactions: Init
  */
 Webflow.require('ix').init([
-  {"slug":"floating","name":"floating","value":{"style":{},"triggers":[{"type":"load","loopA":true,"stepsA":[{"transition":"transform 1500ms ease 0","x":"0px","y":"-3px","z":"0px"},{"transition":"transform 1500ms linear 0","x":"0px","y":"3px","z":"0px"}],"stepsB":[]}]}},
-  {"slug":"floating-2","name":"floating 2","value":{"style":{},"triggers":[{"type":"load","loopA":true,"stepsA":[{"transition":"transform 1500ms linear 0","x":"0px","y":"3px","z":"0px"},{"transition":"transform 1500ms ease 0","x":"0px","y":"-3px","z":"0px"}],"stepsB":[]}]}},
+  {"slug":"floating","name":"floating","value":{"style":{},"triggers":[{"type":"load","loopA":true,"stepsA":[{"transition":"transform 1500ms ease 0","x":"0px","y":"-7px","z":"0px"},{"transition":"transform 1500ms linear 0","x":"0px","y":"7px","z":"0px"}],"stepsB":[]}]}},
+  {"slug":"floating-2","name":"floating 2","value":{"style":{},"triggers":[{"type":"load","loopA":true,"stepsA":[{"transition":"transform 1500ms linear 0","x":"0px","y":"5px","z":"0px"},{"transition":"transform 1500ms ease 0","x":"0px","y":"-5px","z":"0px"}],"stepsB":[]}]}},
   {"slug":"float-in-on-scroll","name":"Float in on scroll","value":{"style":{"opacity":0,"x":"0px","y":"50px","z":"0px"},"triggers":[{"type":"scroll","stepsA":[{"opacity":1,"transition":"opacity 1500ms ease 0, transform 1500ms ease 0","x":"0px","y":"0px","z":"0px"}],"stepsB":[]}]}},
   {"slug":"float-in-on-scroll-2","name":"Float in on scroll 2","value":{"style":{"opacity":0,"x":"0px","y":"50px","z":"0px"},"triggers":[{"type":"scroll","stepsA":[{"wait":"250ms"},{"opacity":1,"transition":"opacity 1500ms ease 0, transform 1500ms ease 0","x":"0px","y":"0px","z":"0px"}],"stepsB":[]}]}},
   {"slug":"float-in-on-scroll-3","name":"Float in on scroll 3","value":{"style":{"opacity":0,"x":"0px","y":"50px","z":"0px"},"triggers":[{"type":"scroll","stepsA":[{"wait":"500ms"},{"opacity":1,"transition":"opacity 1500ms ease 0, transform 1500ms ease 0","x":"0px","y":"0px","z":"0px"}],"stepsB":[]}]}},

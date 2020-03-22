@@ -1,5 +1,5 @@
 import React from 'react'
-import '../res/surf-theme.min.css'
+import '../../res/styles/surf-theme.min.css'
 
 function Header() {
     return ( 
@@ -10,10 +10,10 @@ function Header() {
                     <img alt='Surfboard Logo' className='surfboard-logo' src={window.location.origin + '/img/surfboard-logo.svg'} width={50}/>
                 </a>
                 <nav className='nav-menu w-clearfix w-nav-menu' role='navigation'>
-                    <a className='nav-link w-nav-link' href='#stories' style={{maxWidth: 1200}}>Stories</a>
-                    <a className='nav-link w-nav-link' href='#' style={{maxWidth: 1200}}>Events</a>
-                    <a className='nav-link w-nav-link' href='#' style={{maxWidth: 1200}}>Places</a>
-                    <a className='nav-link w-nav-link' href='#surfboards' style={{maxWidth: 1200}}>Boards</a>
+                    <a className='nav-link w-nav-link' href='#stories'>Stories</a>
+                    <a className='nav-link w-nav-link' href='#'>Events</a>
+                    <a className='nav-link w-nav-link' href='#'>Places</a>
+                    <a className='nav-link w-nav-link' href='#surfboards'>Boards</a>
                 </nav>
                 <div className='menu-button w-nav-button'>
                     <div className='w-icon-nav-menu'></div>
