@@ -8,10 +8,10 @@ export default () => {
             <div className='w-row' id='stories'>
                 <div className='column-2 w-col w-col-6 w-col-small-6 w-col-tiny-6'>
                     <img alt='Surfer on the Rocks' data-ix='float-in-on-scroll' src={window.location.origin + '/img/surfer-rocks.jpg'}/>
-                        <div className='padded-text-container' data-ix='float-in-on-scroll-3'>
-                            <p className='padded-text'>By better understanding the various aspects of surfing, you will improve faster and have more fun in the water.</p>
-                            <a className='text-link' href='#'>Read More</a>
-                        </div>
+                    <div className='padded-text-container' data-ix='float-in-on-scroll-3'>
+                        <p className='padded-text'>Once I surfed the waves, then we switched... And it wasn't cool! So, don't be a wack and don't give wave surf on you!, - Archibald Surfovich aka "The Profi"</p>
+                        <a className='text-link' href='#'>Read More</a>
+                    </div>
                 </div>
                 <div className='column w-col w-col-6 w-col-small-6 w-col-tiny-6'>
                     <a className='image w-inline-block w-lightbox' data-ix='hover-play-icon' href='#'>

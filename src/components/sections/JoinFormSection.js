@@ -10,7 +10,7 @@ function JoinFormSection() {
             <article className='centered container w-container'>
                 <div className='bottom middle-line' data-ix='float-in-on-scroll'></div>
                 <h2 className='sub-heading' data-ix='float-in-on-scroll-2'>Join the Club</h2>
-                <p className='max-500 text-bottom' data-ix='float-in-on-scroll-3'>By better understanding the various aspects of surfing, you will improve faster and have more fun in the water.</p>
+                <p className='max-500 text-bottom' data-ix='float-in-on-scroll-3'>C'mon boi, I know you wanna be here. So, don't be a wack and click the button!</p>
                 <div className='form-wrapper w-form'>
                     <form className='form w-clearfix' data-ix='float-in-on-scroll-3' data-name='Email Form' id='email-form' name='email-form'>
                         <div className='form-group w-clearfix'>

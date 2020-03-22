@@ -1,5 +1,6 @@
 import React from 'react'
 import '../../res/styles/surf-theme.min.css'
+import PictureRef from '../PictureRef.js'
 
 function Footer() {
   return (
@@ -15,15 +16,15 @@ function Footer() {
           <a className='link' href='#surfboards'>Boards</a>
         </div>
         <div className='social-links-footer' data-ix='float-in-on-scroll-3'>
-          <a className='footer social-icon w-inline-block' href='#'>
-            <img className='tumble' src={window.location.origin + '/img/tumblr.svg'}/>
-          </a>
-          <a className='footer social-icon w-inline-block' href='#'>
-            <img className='tumble' src={window.location.origin + '/img/twitter.svg'}/>
-          </a>
-          <a className='footer social-icon w-inline-block' href='#'>
-            <img className='tumble' src={window.location.origin + '/img/vimeo.svg'}/>
-          </a>
+          <PictureRef refClassName = 'footer social-icon w-inline-block' imgClassName = 'tumble' 
+                      imgSrc={window.location.origin + '/img/tumblr.svg'}
+          />
+          <PictureRef refClassName = 'footer social-icon w-inline-block' imgClassName = 'tumble' 
+                      imgSrc={window.location.origin + '/img/twitter.svg'}
+          />
+          <PictureRef refClassName = 'footer social-icon w-inline-block' imgClassName = 'tumble' 
+                      imgSrc={window.location.origin + '/img/vimeo.svg'}
+          />
         </div>
       </footer>
     </footer>

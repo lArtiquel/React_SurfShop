@@ -28,7 +28,6 @@ export default () => {
                         price = '$750' 
                     />
                 </div>
-
                 <div className='arrow w-slider-arrow-left'>
                     <div className='w-icon-slider-left'></div>
                 </div>
