@@ -1,6 +1,8 @@
 ## About project
 This is mock version of [Webflow's surf website](https://surf-theme.webflow.io/) built with [React](https://github.com/facebook/create-react-app).
 
+You can play with deployment version [here](https://lartiquel.github.io/React_SurfShop/).
+
 ![](info/e.gif)
 
 ## Available Scripts
