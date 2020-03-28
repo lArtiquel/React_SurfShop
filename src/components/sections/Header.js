@@ -11,9 +11,9 @@ function Header() {
                     </a>
                     <nav className='nav-menu w-clearfix w-nav-menu' role='navigation'>
                         <a className='nav-link w-nav-link' href='#stories'>Stories</a>
-                        <a className='nav-link w-nav-link' href='#'>Events</a>
-                        <a className='nav-link w-nav-link' href='#'>Places</a>
-                        <a className='nav-link w-nav-link' href='#surfboards'>Boards</a>
+                        <a className='nav-link w-nav-link' href='#shop'>Shop</a>
+                        <a className='nav-link w-nav-link' href='#events'>Events</a>
+                        <a className='nav-link w-nav-link' href='#camp'>Our Camp</a>
                     </nav>
                     <div className='menu-button w-nav-button'>
                         <div className='w-icon-nav-menu'></div>

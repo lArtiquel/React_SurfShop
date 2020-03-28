@@ -5,7 +5,7 @@ import '../../res/styles/surf-theme.min.css'
 
 export default () => {
     return (
-        <article className='bg container w-container' id='surfboards'>
+        <article className='bg container w-container' id='shop'>
             <div className='heading-box'>
                 <div className='small-blue-heading'>SHOP</div>
                 <h2 className='sub-heading'>Surfboards</h2>
