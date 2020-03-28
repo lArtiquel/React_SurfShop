@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/React_SurfShop/static/css/main.a557db25.chunk.css",
-    "main.js": "/React_SurfShop/static/js/main.5f26311f.chunk.js",
-    "main.js.map": "/React_SurfShop/static/js/main.5f26311f.chunk.js.map",
+    "main.js": "/React_SurfShop/static/js/main.d3f4979e.chunk.js",
+    "main.js.map": "/React_SurfShop/static/js/main.d3f4979e.chunk.js.map",
     "runtime-main.js": "/React_SurfShop/static/js/runtime-main.ee340de6.js",
     "runtime-main.js.map": "/React_SurfShop/static/js/runtime-main.ee340de6.js.map",
     "static/js/2.193abcf6.chunk.js": "/React_SurfShop/static/js/2.193abcf6.chunk.js",
     "static/js/2.193abcf6.chunk.js.map": "/React_SurfShop/static/js/2.193abcf6.chunk.js.map",
     "index.html": "/React_SurfShop/index.html",
-    "precache-manifest.f5a9d7359494be8d658074ac0f9d1b02.js": "/React_SurfShop/precache-manifest.f5a9d7359494be8d658074ac0f9d1b02.js",
+    "precache-manifest.3af3de75989e3739e946724784acb905.js": "/React_SurfShop/precache-manifest.3af3de75989e3739e946724784acb905.js",
     "service-worker.js": "/React_SurfShop/service-worker.js",
     "static/css/main.a557db25.chunk.css.map": "/React_SurfShop/static/css/main.a557db25.chunk.css.map",
     "static/js/2.193abcf6.chunk.js.LICENSE.txt": "/React_SurfShop/static/js/2.193abcf6.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.ee340de6.js",
     "static/js/2.193abcf6.chunk.js",
     "static/css/main.a557db25.chunk.css",
-    "static/js/main.5f26311f.chunk.js"
+    "static/js/main.d3f4979e.chunk.js"
   ]
 }
