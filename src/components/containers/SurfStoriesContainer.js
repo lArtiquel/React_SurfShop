@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../res/styles/surf-theme.min.css'
+import VimeoVideo from '../VimeoVideo'
 
 
 export default () => {
@@ -14,11 +15,10 @@ export default () => {
                     </div>
                 </div>
                 <div className='column w-col w-col-6 w-col-small-6 w-col-tiny-6'>
-                    <a className='image w-inline-block w-lightbox' data-ix='hover-play-icon' href='#'>
-                        <img alt='Surfer Video Thumbnail' src={window.location.origin + '/img/surfer-2.jpg'}/>
-                        <div className='play-button'>
-                            <div className='play-icon'></div>
-                        </div>
+                    <a className='image w-inline-block w-lightbox' data-ix='hover-play-icon' id='vimeoSurfVideo'>
+                        <VimeoVideo imgSource= {window.location.origin + '/img/surfer-2.jpg'} 
+                                    videoURL = 'https://vimeo.com/243678113'
+                                    responsive/>
                     </a>
                 </div>
             </div>
