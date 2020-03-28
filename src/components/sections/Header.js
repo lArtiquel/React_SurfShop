@@ -7,7 +7,7 @@ function Header() {
             <div className='navbar w-nav' data-animation='default' data-collapse='medium' data-duration={400} id='top'>
                 <header className='container in-nav w-container'>
                     <a className='w-nav-brand' href='#top'>
-                        <img alt='Surfboard Logo' className='surfboard-logo' src={window.location.origin + '/img/surfboard-logo.svg'} width={50}/>
+                        <img alt='Surfboard Logo' className='surfboard-logo' src={process.env.PUBLIC_URL + '/img/surfboard-logo.svg'} width={50}/>
                     </a>
                     <nav className='nav-menu w-clearfix w-nav-menu' role='navigation'>
                         <a className='nav-link w-nav-link' href='#stories'>Stories</a>

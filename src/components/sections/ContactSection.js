@@ -7,7 +7,7 @@ function ContactSection() {
             <address className='both-top-and-bottom container w-container'>
                 <div className='row w-row'>
                     <div className='column-5 w-clearfix w-col w-col-6'>
-                        <img alt='Surf Camp' className='image-4' src={window.location.origin + '/img/surf-beach.jpg'}/>
+                        <img alt='Surf Camp' className='image-4' src={process.env.PUBLIC_URL + '/img/surf-beach.jpg'}/>
                     </div>
                     <div className='column-6 w-col w-col-6'>
                         <div className='footer-sub-head'>Our Camp</div>

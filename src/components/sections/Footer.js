@@ -7,7 +7,7 @@ function Footer() {
     <footer className='section'>
       <footer className='both-top-and-bottom centered container w-container'>
         <a className='footer-logo w-inline-block' data-ix='float-in-on-scroll' href='#'>
-          <img alt='Surfboard Logo' className='image-5' src={window.location.origin + '/img/surfboard-logo.svg'} width='50'/>
+          <img alt='Surfboard Logo' className='image-5' src={process.env.PUBLIC_URL + '/img/surfboard-logo.svg'} width='50'/>
         </a>
         <div className='text-links' data-ix='float-in-on-scroll-2'>
           <a className='link' href='#stories'>Stories</a>
@@ -17,13 +17,13 @@ function Footer() {
         </div>
         <div className='social-links-footer' data-ix='float-in-on-scroll-3'>
           <PictureRef refClassName = 'footer social-icon w-inline-block' imgClassName = 'tumble' 
-                      imgSrc={window.location.origin + '/img/tumblr.svg'}
+                      imgSrc={process.env.PUBLIC_URL + '/img/tumblr.svg'}
           />
           <PictureRef refClassName = 'footer social-icon w-inline-block' imgClassName = 'tumble' 
-                      imgSrc={window.location.origin + '/img/twitter.svg'}
+                      imgSrc={process.env.PUBLIC_URL + '/img/twitter.svg'}
           />
           <PictureRef refClassName = 'footer social-icon w-inline-block' imgClassName = 'tumble' 
-                      imgSrc={window.location.origin + '/img/vimeo.svg'}
+                      imgSrc={process.env.PUBLIC_URL + '/img/vimeo.svg'}
           />
         </div>
       </footer>

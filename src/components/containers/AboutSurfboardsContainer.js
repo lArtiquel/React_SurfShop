@@ -20,7 +20,7 @@ export default () => {
                 </div>
                 <div className='column-4 w-col w-col-7'>
                     <img alt='Surfboards' className='image-3' data-ix='float-in-on-scroll' sizes='(max-width: 479px) 96vw, (max-width: 767px) 92vw, (max-width: 991px) 55vw, 50vw' 
-                        src={window.location.origin + '/img/surf-splash.jpg'} 
+                        src={process.env.PUBLIC_URL + '/img/surf-splash.jpg'} 
                         srcSet='https://daks2k3a4ib2z.cloudfront.net/58f24ff59590171867ff6fe6/58f27ac2a5352543aeedc61b_surf-splash-p-500.jpeg 500w, https://daks2k3a4ib2z.cloudfront.net/58f24ff59590171867ff6fe6/58f27ac2a5352543aeedc61b_surf-splash.jpg 762w'/>
                 </div>
             </div>
