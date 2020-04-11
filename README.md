@@ -42,7 +42,7 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## Deployment
-This section has moved [here]:(https://facebook.github.io/create-react-app/docs/deployment)
+This section has moved [here](https://facebook.github.io/create-react-app/docs/deployment).
 
 ## Plans for the future
 	* Add backend business logic to the site.
@@ -51,6 +51,11 @@ This section has moved [here]:(https://facebook.github.io/create-react-app/docs/
 ## Known bugs
 	* As far as i remember, there was some bug with onError callback in that version of vimeo video plugin.
 
-## Contributing and conact
-Feel free and not obligated to contact [me](mailto:tsvirkoartem@gmail.com) and, of course, forking, contributing, pull requestin' and all that stuff. Okay, if u reached here, ~~u r insane, dude~~ you are amazing, thank you!!!
+## Contact
+You can reach me [here](mailto:tsvirkoartem@gmail.com).
 
+## Contributing
+Please, feel free and not obligated to fork, contribute and make pull request. 
+
+## Bye
+Okay, if you are still here, ~~u r insane, dude~~ you are amazing, **thank you**!!!
