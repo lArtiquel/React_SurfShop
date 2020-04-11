@@ -5,6 +5,12 @@ You can play with deployment version [here](https://lartiquel.github.io/React_Su
 
 ![](info/e.gif)
 
+## For newbies
+To download all necessary packages install [Node.js](https://nodejs.org) and type:
+
+### `npm install`
+It may take a while. So, just ~~make a tea, lunch, hit the sacc, whatever~~ wait until npm downloading half of the internet on your computer.
+
 ## Available Scripts
 To run this project just type:
 
