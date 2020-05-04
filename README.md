@@ -5,6 +5,12 @@ You can play with deployment version [here](https://lartiquel.github.io/React_Su
 
 ![](info/e.gif)
 
+## For newbies
+To download all necessary packages install [Node.js](https://nodejs.org) and type:
+
+### `npm install`
+It may take a while. So, just ~~make a tea, lunch, hit the sacc, whatever~~ wait until npm downloading half of the internet on your computer.
+
 ## Available Scripts
 To run this project just type:
 
@@ -42,4 +48,20 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## Deployment
-This section has moved [here]: (https://facebook.github.io/create-react-app/docs/deployment)
+This section has moved [here](https://facebook.github.io/create-react-app/docs/deployment).
+
+## Plans for the future
+	* Add backend business logic to the site.
+	* Add subscription for newcomers.
+
+## Known bugs
+	* As far as i remember, there was some bug with onError callback in that version of vimeo video plugin.
+
+## Contact
+You can reach me [here](mailto:tsvirkoartem@gmail.com).
+
+## Contributing
+Please, feel free and not obligated to fork, contribute and make pull request. 
+
+## Bye
+Okay, if you are still here, ~~u r insane, dude~~ you are amazing, **thank you**!!!
