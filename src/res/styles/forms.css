@@ -1,34 +1,39 @@
 .form-group .form-control {
-		  position: relative;
-		  z-index: 2;
-		  padding: 12px;
-		  width: 100%;
-		  box-shadow: none;
-		}
-		.form-group .form-control:focus, .form-group .form-control:active {
-		  box-shadow: none;
-		  outline: none;
-		}
+  position: relative;
+  z-index: 2;
+  padding: 12px;
+  width: 100%;
+  box-shadow: none;
+}
 
-		.form-group .form-label {
-			color: #222222;
-			font-size: 14px;
-			min-height: 42px;
-			text-align: left;
-			position: absolute;
-			top: 14px;
-			left: 10px;
-			right: 0;
-			-webkit-transition: 0.3s;
-			transition: 0.3s;
-			z-index: 3;}
-		.form-group.focus:after {
-		  opacity: 1;
-		  width: 100%;
-		}
-		.form-group.focus .form-label, .form-group.filled .form-label {
-		  top: -20px;
-		  font-size: 12px;
-		  left: 0px;
-		  color: #5da8ef;
-		}
+.form-group .form-control:focus,
+.form-group .form-control:active {
+  box-shadow: none;
+  outline: none;
+}
+
+.form-group .form-label {
+  color: #222222;
+  font-size: 14px;
+  min-height: 42px;
+  text-align: left;
+  position: absolute;
+  top: 14px;
+  left: 10px;
+  right: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  z-index: 3;
+}
+
+.form-group.focus .form-label {
+  top: -20px;
+  font-size: 12px;
+  left: 0px;
+  color: #5da8ef;
+}
+
+.form-group.focus:after {
+  opacity: 1;
+  width: 100%;
+}
