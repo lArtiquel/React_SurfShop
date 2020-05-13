@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, {useEffect, useState} from 'react'
 import '../../res/styles/surf-theme.min.css'
 import '../../res/styles/forms.css'
 
@@ -68,11 +68,13 @@ function JoinFormSection() {
                 data-ix="float-in-on-scroll-3"
                 data-name="Email Form"
                 id="email-form"
-                name="email-form">
+                name="email-form"
+              >
                 <div id="subscription" className="form-group w-clearfix">
                   <label
                     className="form-label"
-                    htmlFor="subscription-email-control">
+                    htmlFor="subscription-email-control"
+                  >
                     Your Email:
                   </label>
                   <input
