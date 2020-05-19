@@ -7,19 +7,18 @@ import ShopContainer from '../containers/ShopContainer.js'
 import AboutSurfboardsContainer from '../containers/AboutSurfboardsContainer'
 import PointBreakContainer from '../containers/PointBreakContainer'
 
-
 function MainContentSection() {
-    return (
-        <section className='section'>
-            <SideBar />
-            <CoverContainer />
-            <QuoteContainer />
-            <SurfStoriesContainer />
-            <ShopContainer />
-            <AboutSurfboardsContainer />
-            <PointBreakContainer />
-        </section>
-    );
+  return (
+    <section className="section">
+      <SideBar />
+      <CoverContainer />
+      <QuoteContainer />
+      <SurfStoriesContainer />
+      <ShopContainer />
+      <AboutSurfboardsContainer />
+      <PointBreakContainer />
+    </section>
+  )
 }
 
-export default MainContentSection;
+export default MainContentSection

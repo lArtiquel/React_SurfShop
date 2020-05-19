@@ -1,6 +1,6 @@
-import React from 'react';
-import '../../res/styles/surf-theme.min.css';
-import PictureRef from '../PictureRef.js';
+import React from 'react'
+import '../../res/styles/surf-theme.min.css'
+import PictureRef from '../PictureRef.js'
 
 function Footer() {
   return (
@@ -9,7 +9,8 @@ function Footer() {
         <a
           className="footer-logo w-inline-block"
           data-ix="float-in-on-scroll"
-          href="#">
+          href="#"
+        >
           <img
             alt="Surfboard Logo"
             className="image-5"
@@ -50,7 +51,7 @@ function Footer() {
         </div>
       </footer>
     </footer>
-  );
+  )
 }
 
-export default Footer;
+export default Footer

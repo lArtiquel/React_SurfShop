@@ -1,6 +1,5 @@
-import React, {useState} from 'react';
-import Vimeo from '@u-wave/react-vimeo';
-
+import React, {useState} from 'react'
+import Vimeo from '@u-wave/react-vimeo'
 
 // should be static image instead of video on error, but there is a bug in react-vimeo
 /*
@@ -24,10 +23,5 @@ export default ({imgSource, videoURL, responsive}) => {
 */
 
 export default ({videoURL, responsive}) => {
-    return (
-        <Vimeo
-            video = {videoURL}
-            responsive = {responsive}       
-        />
-    );
+  return <Vimeo video={videoURL} responsive={responsive} />
 }
